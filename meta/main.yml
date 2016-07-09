@@ -1,20 +1,20 @@
 ---
 galaxy_info:
-  author: Michael Hamrah 
+  author: Niclas Hedhman
   description: Installs Oracle Java 8 from webupd8team
-  company: http://michaelhamrah.com
+  company: http://sensetif.com
   license: Apache 2
-  min_ansible_version: 1.2
+  min_ansible_version: 1.7
   #
   # Below are all platforms currently available. Just uncomment
   # the ones that apply to your role. If you don't see your 
   # platform on this list, let us know and we'll get it added!
   #
   platforms:
-  #- name: EL
-  #  versions:
-  #  - all
-  #  - 5
+  - name: EL
+    versions:
+    - all
+    - 7
   #  - 6
   #- name: GenericUNIX
   #  versions:
@@ -52,18 +52,18 @@ galaxy_info:
   #  - 9.1
   #  - 9.1
   #  - 9.2
-  - name: Ubuntu
-    versions:
-      - all
-      - lucid
-      - maverick
-      - natty
-      - oneiric
-      - precise
-      - quantal
-      - raring
-      - saucy
-      - trusty
+  #- name: Ubuntu
+  #  versions:
+  #    - all
+  #    - lucid
+  #    - maverick
+  #    - natty
+  #    - oneiric
+  #    - precise
+  #    - quantal
+  #    - raring
+  #    - saucy
+  #    - trusty
   #- name: SLES
   #  versions:
   #  - all
@@ -96,7 +96,7 @@ galaxy_info:
   #- database
   #- database:nosql
   #- database:sql
-  #- development
+  - development
   #- monitoring
   #- networking
   #- packaging
